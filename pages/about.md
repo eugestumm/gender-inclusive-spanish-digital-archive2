@@ -4,36 +4,26 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
-# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
-# set background-position for featured image, "center", "top", "bottom"
-position: bottom
-# major heading to display over featured image
-heading: About the Collection
-# paragraph text below heading in featured image
-sub-heading: 
-# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+## About This Project
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The Gender-Inclusive Spanish Digital Archive was constructed by [Euge Stumm](https://eugestumm.github.io/) and [Ben Papadopoulos](https://www.benpapadopoulos.com/). The first version of this project featured the <a href="https://sections.lasaweb.org/sections/sexualities-studies/show.php?type=news&id=692&pg=2">Workshop on Alliances: Gender-Inclusive Language, History, and the Struggle against Colonialism</a> at the [Sexuality Studies](https://sections.lasaweb.org/sections/sexualities-studies) section of the [Latin American Studies Association](https://lasaweb.org/en). This [Digital Humanities](https://en.wikipedia.org/wiki/Digital_humanities) project provides participants with interactive temporal and spatial visualizations of Spanish-speaking cultural productions featuring gender-inclusive forms, as well as its theoretical underpinnings centered around colonialism and related forms of oppression, ranging from colonial to contemporary times. Our primary resources include colonial language documents, art, zines, poetry, theses, manifestos, short stories, novels, and videos. You may view the Archive [spatially](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/map.html) or [temporally](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/timeline.html) and a full list of the data with descriptions may be located [here](https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/data.html).
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## About The Authors
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+<a href="https://eugestumm.github.io/">Euge Stumm</a> (they/them/elle/elu) is a Dean's Fellow and Ph.D. student in Literary, Cultural, and Linguistic Studies in the Department of Modern Languages and Literatures at the University of Miami. Their research examines how gender and sexual dissidents in Latin America construct language to express their experiences. Their research corpus focuses on cultural productions utilizing inclusive language and non-binary Spanish in Argentina, and Pajubá, a cryptolect originally developed by travesti sex workers, in Brazil. Currently, they are developing an open-access Pajubá Digital Archive, gathering multiple resources, dictionaries, and scholarly works on the cryptolect.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+[Ben Papadopoulos](https://www.benpapadopoulos.com/) (he/they/él/elle) is a recent Ph.D graduate in Hispanic Languages and Literatures from the University of California, Berkeley. He is primarily interested in the fields of sociolinguistics and critical sociology. His research revolves around the topic of gender-inclusive language and makes sociological arguments about language as a category of power and the right of queer and trans people to have and use adequate forms of self-identification. Relatedly, he is the founder of the <a href="https://www.genderinlanguage.com/">Gender in Language Project</a>, which aims to offer grammars of gender in as many languages as possible.
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+
+## About This Website
+
+This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+
+
